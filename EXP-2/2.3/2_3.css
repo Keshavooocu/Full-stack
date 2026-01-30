@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.controls {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+svg {
+    width: 90vw;
+    height: 60vh;
+    border: 2px solid #1e293b;
+    background-color: white;
+}
+.counter {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

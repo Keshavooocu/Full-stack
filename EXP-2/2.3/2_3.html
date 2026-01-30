@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG Drawing Tool</title>
+    <link rel="stylesheet" href="2_3.css">
+</head>
+<body>
+
+<h1>SVG Drawing Tool</h1>
+
+<div class="controls">
+    <label>Choose Color:</label>
+    <input type="color" id="colorPicker" value="#2563eb">
+    <button onclick="undo()">Undo</button>
+</div>
+
+<svg id="canvas" viewBox="0 0 1000 500"></svg>
+<div class="counter">
+    Total Dots: <span id="dotCount">0</span>
+</div>
+<script src="2_3.js"></script>
+</body>
+</html>
